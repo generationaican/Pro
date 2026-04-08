@@ -125,13 +125,6 @@ export default function About() {
                 expertise: ["Curriculum Design", "Educational Technology", "AI Strategy"]
               },
               {
-                name: "Dr. Aruna Somasiri",
-                role: "Co-founder",
-                credentials: "PhD (UBC), MBA (SFU)",
-                bio: "Co-founder of Generation AI with expertise in curriculum development and educational technology. Holds advanced degrees from University of British Columbia and Simon Fraser University. Leads course design and ensures our programs meet the highest academic standards.",
-                expertise: ["Curriculum Design", "Educational Technology", "AI Strategy"]
-              },
-              {
                 name: "Dr. Peter Ostafichuk",
                 role: "Co-founder | Professor of Teaching",
                 credentials: "PhD (UBC), University of British Columbia",
