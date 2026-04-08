@@ -116,29 +116,36 @@ export default function About() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            {[
-              {
-                name: "Dr. Aruna Somasiri",
-                role: "Co-founder",
-                credentials: "PhD (UBC), MBA (SFU)",
-                bio: "Co-founder of Generation AI with expertise in curriculum development and educational technology. Holds advanced degrees from University of British Columbia and Simon Fraser University. Leads course design and ensures our programs meet the highest academic standards.",
-                expertise: ["Curriculum Design", "Educational Technology", "AI Strategy"]
-              },
-              {
-                name: "Dr. Peter Ostafichuk",
-                role: "Co-founder | Professor of Teaching",
-                credentials: "PhD (UBC), University of British Columbia",
-                bio: "Co-founder and Professor of Teaching at the University of British Columbia. Brings academic excellence and pedagogical expertise to our professional programs. Specializes in making complex concepts accessible to diverse learners.",
-                expertise: ["Pedagogy", "AI Fundamentals", "Professional Development"]
-              },
-              {
-                name: "Rukshan Vidana Gamage",
-                role: "Co-founder",
-                credentials: "B.Sc. MIS (MNSU), MBA (UCW)",
-                bio: "Co-founder with strong background in information systems and business management. Leads strategic initiatives and course development. Brings real-world business perspective to AI applications.",
-                expertise: ["Business Strategy", "Systems Design", "AI Applications"]
-              }
-            ].map((member, idx) => (
+{[
+  {
+    name: "Prof. Lalith Gamage",
+    role: "Advisor | Vice Chancellor, SLIIT",
+    credentials: "PhD (UBC)",
+    bio: "Lalith Gamage is the CEO and Founding President of SLIIT, a premier higher education institute specializing in technology, engineering, and business. A visionary leader in education and innovation, he has played a key role in shaping IT and engineering education in Sri Lanka. An alumnus of UBC, he has contributed significantly to academia, research, and industry development.",
+    expertise: ["Education Leadership", "Innovation", "Academic Strategy"]
+  },
+  {
+    name: "Dr. Aruna Somasiri",
+    role: "Co-founder",
+    credentials: "PhD (UBC), MBA (SFU)",
+    bio: "Co-founder of Generation AI with expertise in curriculum development and educational technology. Holds advanced degrees from University of British Columbia and Simon Fraser University. Leads course design and ensures our programs meet the highest academic standards.",
+    expertise: ["Curriculum Design", "Educational Technology", "AI Strategy"]
+  },
+  {
+    name: "Dr. Peter Ostafichuk",
+    role: "Co-founder | Professor of Teaching",
+    credentials: "PhD (UBC), University of British Columbia",
+    bio: "Co-founder and Professor of Teaching at the University of British Columbia. Brings academic excellence and pedagogical expertise to our professional programs. Specializes in making complex concepts accessible to diverse learners.",
+    expertise: ["Pedagogy", "AI Fundamentals", "Professional Development"]
+  },
+  {
+    name: "Rukshan Vidana Gamage",
+    role: "Co-founder",
+    credentials: "B.Sc. MIS (MNSU), MBA (UCW)",
+    bio: "Co-founder with strong background in information systems and business management. Leads strategic initiatives and course development. Brings real-world business perspective to AI applications.",
+    expertise: ["Business Strategy", "Systems Design", "AI Applications"]
+  }
+].map((member, idx) => (
               <div key={idx} className="bg-white rounded-xl p-8 border border-border shadow-lg hover:shadow-xl transition-smooth">
                 <div className="w-16 h-16 gradient-primary rounded-full mb-6 flex items-center justify-center text-white font-display font-bold text-xl">
                   {member.name.split(' ').map(n => n[0]).join('')}
