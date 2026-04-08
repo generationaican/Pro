@@ -17,7 +17,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <div className="container flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-smooth">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663428298497/hycxSK4sbHuUdaoZvUzyDq/generation-ai-logo_e87ef3c9.webp" alt="Generation AI" className="h-10 w-auto" />
+            <img src="/logo.png" alt="Generation AI" className="h-10 w-auto" />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             <Link href="/course" className="text-sm font-body hover:text-accent transition-smooth">
