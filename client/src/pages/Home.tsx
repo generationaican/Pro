@@ -272,7 +272,7 @@ export default function Home() {
           </div>
 
           <p className="font-body text-sm text-secondary-foreground">
-            Questions? Call us at <strong>+1 236 427 2510</strong> or email <strong>hello@generationai.com</strong>
+            Questions? Call us at <strong>+1 236 427 2510</strong> or email <strong>admissions@generationai.com</strong>
           </p>
         </div>
       </section>
@@ -282,12 +282,14 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center text-white font-display font-bold">
-                  GA
-                </div>
-                <span className="font-display font-bold">Generation AI</span>
-              </div>
+<div className="flex items-center gap-2">
+  <img 
+    src="/logo.png" 
+    alt="Generation AI" 
+    className="h-8 w-auto"
+  />
+  <span className="font-display font-bold">Generation AI</span>
+</div>
               <p className="font-body text-sm text-secondary-foreground">
                 Professional AI education for the modern workforce.
               </p>
