@@ -286,7 +286,7 @@ export default function Home() {
   <img 
     src="/logo.png" 
     alt="Generation AI" 
-    className="h-8 w-auto"
+    className="h-12 w-auto"
   />
 </div>
               <p className="font-body text-sm text-secondary-foreground">
