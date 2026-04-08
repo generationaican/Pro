@@ -288,7 +288,6 @@ export default function Home() {
     alt="Generation AI" 
     className="h-8 w-auto"
   />
-  <span className="font-display font-bold">Generation AI</span>
 </div>
               <p className="font-body text-sm text-secondary-foreground">
                 Professional AI education for the modern workforce.
