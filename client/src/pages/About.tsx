@@ -117,6 +117,13 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             {[
+               {
+                name: "Prof. Lalith Gamage",
+                role: "Advisor | Vice Chancellor, SLIIT",
+                credentials: "PhD (UBC), University of British Columbia",
+                bio: "Lalith Gamage is the CEO and Founding President of SLIIT, a premier higher education institute specializing in technology, engineering, and business. A visionary leader in education and innovation, he has played a key role in shaping IT and engineering education in Sri Lanka. An Alumnus of UBC, he has contributed significantly to academia, research, and industry development.",
+                expertise: ["Curriculum Design", "Educational Technology", "AI Strategy"]
+              },
               {
                 name: "Dr. Aruna Somasiri",
                 role: "Co-founder",
