@@ -30,9 +30,15 @@ export default function Home() {
               Contact
             </a>
           </div>
-          <Button className="bg-accent hover:bg-accent/90 text-white font-body">
-            Get Started
-          </Button>
+            <a
+              href="https://forms.gle/YOUR_FORM_LINK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-accent hover:bg-accent/90 text-white font-body">
+                Get Started
+              </Button>
+            </a>
         </div>
       </nav>
 
