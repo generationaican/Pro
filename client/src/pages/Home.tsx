@@ -31,7 +31,7 @@ export default function Home() {
             </a>
           </div>
             <a
-              href="https://forms.gle/QFrKt7UpeFUy8n9V9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdMMEh6rCPNcCTO1SSI5KHUvLqV6sg1sOCV3vzimDV0RWl6fA/viewform?usp=sharing&ouid=116876816699307206522"
               target="_blank"
               rel="noopener noreferrer"
             >
