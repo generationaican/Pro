@@ -57,10 +57,12 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
+              <a href="#course-section">
               <Button className="gradient-primary text-white hover:opacity-90 transition-smooth font-body px-8 py-6 text-base h-auto">
                 Explore Our Course
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
+              </a>
             </div>
 
             {/* Trust Indicators */}
@@ -119,7 +121,7 @@ export default function Home() {
 
               <div className="p-8 space-y-6">
                 <div className="space-y-3">
-                  <div className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-body font-semibold">
+                  <div id="course-section" className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-body font-semibold">
                     Professional Development
                   </div>
                   <h3 className="font-display font-bold text-3xl">
