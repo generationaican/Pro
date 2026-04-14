@@ -55,9 +55,6 @@ export default function Home() {
                 Explore Our Course
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button variant="outline" className="border-border font-body px-8 py-6 text-base h-auto">
-                Schedule a Demo
-              </Button>
             </div>
 
             {/* Trust Indicators */}
