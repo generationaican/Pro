@@ -272,7 +272,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="...">
+              <Button className="gradient-primary text-white hover:opacity-90 transition-smooth font-body px-8 py-6 text-base h-auto">
                 Enroll Today
               </Button>
             </a>
