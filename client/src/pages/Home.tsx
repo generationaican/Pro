@@ -279,8 +279,14 @@ export default function Home() {
                 Enroll Today
               </a>
             </Button>
-            <Button variant="outline" className="border-border font-body px-8 py-6 text-base h-auto">
-              Contact Us
+            <Button asChild variant="outline" className="border-border font-body px-8 py-6 text-base h-auto">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdMMEh6rCPNcCTO1SSI5KHUvLqV6sg1sOCV3vzimDV0RWl6fA/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact Us
+              </a>
             </Button>
           </div>
 
@@ -295,13 +301,13 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
-<div className="flex items-center gap-2">
-  <img 
-    src="/logo.png" 
-    alt="Generation AI" 
-    className="h-12 w-auto"
-  />
-</div>
+              <div className="flex items-center gap-2">
+                <img 
+                  src="/logo.png" 
+                  alt="Generation AI" 
+                  className="h-12 w-auto"
+                />
+              </div>
               <p className="font-body text-sm text-secondary-foreground">
                 Professional AI education for the modern workforce.
               </p>
