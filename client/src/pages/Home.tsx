@@ -267,15 +267,18 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdMMEh6rCPNcCTO1SSI5KHUvLqV6sg1sOCV3vzimDV0RWl6fA/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Button
+              asChild
+              className="gradient-primary text-white hover:opacity-90 transition-smooth font-body px-8 py-6 text-base h-auto"
             >
-              <Button className="gradient-primary text-white hover:opacity-90 transition-smooth font-body px-8 py-6 text-base h-auto">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdMMEh6rCPNcCTO1SSI5KHUvLqV6sg1sOCV3vzimDV0RWl6fA/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Enroll Today
-              </Button>
-            </a>
+              </a>
+            </Button>
             <Button variant="outline" className="border-border font-body px-8 py-6 text-base h-auto">
               Contact Us
             </Button>
